@@ -1,0 +1,12 @@
+
+<html>
+<head>
+<body>
+<script type="text/javascript"> 
+var kri = "hello,\"everyone\"";
+document.write(kri);
+</script>
+
+</body>
+</head>
+</html>
