@@ -1,0 +1,23 @@
+<html>
+<head>
+    <body>
+    <script type="text/javascript">
+        var name= "krishna";
+        function year(a) {
+            document.write(name+ " is in " +a+ " year ");
+        }
+        year(4);
+        document.write(name); 
+        // here we can clearly see that name is global variable because it has not declared in a function so it has  global scope
+        
+        function stud(){
+            var student =" chaitanya";
+            document.write(student);
+        }
+        stud();
+        // Here we can clearly see that chaitanya was printed only once because student is local variable it does not has global scope. So not able to use outside of function
+          document.write(student);
+        </script>
+    </body>
+    </head>
+</html>
