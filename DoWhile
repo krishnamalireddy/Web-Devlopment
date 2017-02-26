@@ -1,0 +1,25 @@
+<html>
+<head>
+    <body>
+    <script type="text/javascript">
+        //while
+    var x=0;
+    while(x<10){
+    document.write(" this is "+x);
+    x++;
+    }
+        
+        
+        //Do while
+        var y=20;
+        do{
+            document.write(" may be"+y);
+            y--;
+        }
+        while(y>10);
+     // Diff b/w while and do while is in while the system checks condition and prints 
+        //where as in do while system prints first and checks condition in second line. So, though you have mismatch with condition still your line prints once
+        </script>
+    </body>
+    </head>
+</html>
